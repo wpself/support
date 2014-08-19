@@ -1,3 +1,3 @@
-support
-=======
-Venkatesh Khajjidoni asked a question. I just did CSS house cleaning to make it more readable.
+WordPress.org Support Forum
+===================================
+This repository keep code for all queries asked in WordPress Forum
