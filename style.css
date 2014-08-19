@@ -1,0 +1,81 @@
+/*
+Theme Name: Twenty twelve Child
+Theme URI: http://myfreelancelifestyle.com/twenty-twelve-child/
+Description: Twenty twelve Child Theme
+Author: venkatesh khajjidoni
+Author URI: http://myfreelancelifestyle.com
+Template: twentytwelve
+Version: 1.0.0
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-twelve-child
+*/
+@import url("../twentytwelve/style.css");
+@import url("http://fonts.googleapis.com/css?family=Fjalla+One|PT+Sans");
+
+
+#masthead {padding-top: 0px}
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body {
+	font-size: 1.5rem;
+	font-family: 'PT Serif';
+	line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2.6rem;
+}
+h3 {
+	font-size: 2.4rem;
+}
+h4 {
+	font-size: 2.2rem;
+}
+h5 {
+	font-size: 2rem;
+}
+h6 {
+	font-size: 1.8rem;
+}
+a {
+	color:#000000;
+}
+ul {
+	font-size: 1.5rem;
+}
+
+
+/* Navigation Menu */
+.main-navigation {
+	margin-top: 0; /* our mod */
+	margin-top: 0rem; /* our mod */
+	background-color:purple;
+}
+.main-navigation li a:hover {
+	color: #FF0000;
+}
+.main-navigation li a {
+	color: #FFFFFF;
+	font-size:10px;
+}
+
+@media screen and (min-width: 600px) {
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		border-bottom: 1px solid #ededed;
+		background-color:purple;
+		border-top: 1px solid #ededed;
+		display: inline-block !important;
+		text-align: center;
+		font-weight:bold;
+		margin-top:0;
+		width: 100%;
+	}
+}
