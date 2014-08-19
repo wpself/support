@@ -1,3 +1,3 @@
 WordPress.org Support Forum
 ===================================
-This repository keep code for all queries asked in WordPress Forum
+Repository keep code for all queries answered by me (Rajat Chodhary) in WordPress Forum
